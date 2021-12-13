@@ -7,6 +7,7 @@ import DirectDeposit from './Screens/DirectDeposit';
 import GPointDebitCard from './Screens/GPointDebitCard';
 import HowItWorks from './Screens/HowItWorks';
 import PayInStore from './Screens/PayInStore';
+import Rewards from './Screens/Rewards';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/profile/" element={<BusinessProfile />} />
         <Route path="/pay/" element={<PayInStore />} />
         <Route path="/Debit/" element={<GPointDebitCard />} />
+        <Route path="/rewards/" element={<Rewards />} />
       </Routes>
     </Router>
   );
