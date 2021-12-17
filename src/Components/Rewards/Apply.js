@@ -6,9 +6,10 @@ import { Grid } from '@mui/material';
 const useStyle = makeStyles(() => ({
     root:{
         textAlign: 'center',
+        marginBottom: '50px',
     },
     background:{
-        backgroundImage: 'url("https://images.ctfassets.net/gkyt4bl1j2fs/50LoQHnONxtKS1cuXE6PkX/f414c7e7e03caca1e09788b537af93bd/CreditCardCTA_Desktop.png?w=1750&h=960&q=50&fm=webp")',
+        backgroundImage: `url(${require('../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Credit_Card_Images_1800x960.png').default})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -25,7 +26,7 @@ const useStyle = makeStyles(() => ({
             backgroundColor: '#00A8E8',
             color: '#fff',
             border: '1px solid #00A8E8',
-        }
+        } 
     },
 }));
 

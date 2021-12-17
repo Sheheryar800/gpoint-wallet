@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import MainImage from "../../assets/images/Business_Profile/Business_Profile_1304x600/Business Profile_Main_1304x600_1.jpg";
+import MainImage from "../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Main_Page_1145x460.png";
 import { createTheme } from '@mui/material/styles';
 import { Link } from "react-router-dom";
 

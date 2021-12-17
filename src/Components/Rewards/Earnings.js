@@ -22,7 +22,7 @@ function Earnings() {
                 <Grid item xs={12} sm={8} md={3}>
                     <Grid container>
                         <Grid item sm={12}>
-                            <img width={'100%'} src="https://images.ctfassets.net/gkyt4bl1j2fs/6AMTSrzcHIi3PCW89Wn8Fs/2e60a7e87f905f027e2d517ce0d0ac2f/Mask-Group-_2_.png?w=432&h=457&q=50&fm=webp" alt="Earn 1" />
+                            <img width={'100%'} src={require('../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Get_Cash_Reward.png').default} alt="Earn 1" />
                             <img width={'100%'} src='https://images.ctfassets.net/gkyt4bl1j2fs/2HpjisuodQIvGXMU7NyhOh/2d923a52b72c8e6c2ace16a08e69d6f3/how-it-works-separator.svg' alt=""/>
                             <Grid container alignItems={'flex-start'} justifyContent={'center'}>
                                 <Grid item sm={'2'}>
@@ -39,7 +39,7 @@ function Earnings() {
                 <Grid item xs={12} sm={8} md={3}>
                     <Grid container>
                         <Grid item sm={12}>
-                            <img width={'100%'} src="https://images.ctfassets.net/gkyt4bl1j2fs/Pf3c6UjIgJHks91AAr8ZN/6575e2b43916d8c30a0657ffedc27f35/Mask-Group-_1_.png?w=432&h=457&q=50&fm=webp" alt="Earn 2" />
+                            <img width={'100%'} src={require('../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Get_GPoint_Wallet_V1.png').default} alt="Earn 2" />
                             <img width={'100%'} src='https://images.ctfassets.net/gkyt4bl1j2fs/2HpjisuodQIvGXMU7NyhOh/2d923a52b72c8e6c2ace16a08e69d6f3/how-it-works-separator.svg' alt=""/>
                             <Grid container alignItems={'flex-start'} justifyContent={'center'}>
                                 <Grid item sm={'2'}>
@@ -56,7 +56,7 @@ function Earnings() {
                 <Grid item xs={12} sm={8} md={3}>
                     <Grid container>
                         <Grid item sm={12}>
-                            <img width={'100%'} src="https://images.ctfassets.net/gkyt4bl1j2fs/5QBGediMaSdCmGsC6NgirC/31a26e996530b5dc825f76af0f04d354/Mask-Group-_3_.png?w=432&h=457&q=50&fm=webp" alt="Earn 3" />
+                            <img width={'100%'} src={require('../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Get_GPoint_Wallet_V2.png').default} alt="Earn 3" />
                             <img width={'100%'} src='https://images.ctfassets.net/gkyt4bl1j2fs/2HpjisuodQIvGXMU7NyhOh/2d923a52b72c8e6c2ace16a08e69d6f3/how-it-works-separator.svg' alt=""/>
                             <Grid container alignItems={'flex-start'} justifyContent={'center'}>
                                 <Grid item sm={'2'}>

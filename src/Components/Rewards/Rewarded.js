@@ -2,6 +2,15 @@ import React from 'react';
 import { makeStyles } from "@mui/styles";
 import { createTheme } from '@mui/material/styles';
 import Cards from './Cards';
+import transportation from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Transportation.png';
+import travel from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Travel.png';
+import grocery from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Grocery.png';
+import entertainment from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Entertainment.png';
+import dining from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Dining_Nightlife.png';
+import bills from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Bills_Utilities.png';
+import health from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Health_Beauty.png';
+import gas from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Gas.png';
+import other from '../../assets/images/GPoint_Wallet_Website_12_12_2021_Final/Other.png';
 
 const theme = createTheme({
     breakpoints: {
@@ -115,15 +124,15 @@ const useStyle = makeStyles(() => ({
 function Rewarded() {
     const classes = useStyle();
     const data = [
-        {id: 1,title: 'Transportation', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/5Dgb0C79Haem9Ck1NjWTsS/d9cf4e5f3e2129e41314f90424ed816f/transportation.svg'},
-        {id: 2,title: 'Travel', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/34WCbNCKCXX5OCryR34Lzz/6e53655c5f9d573fdc893f4160f5aa0c/travel.svg'},
-        {id: 3,title: 'Grocery', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/4AvkVfYwTzLtEXYrn95j9U/e386b8d1926c2251b2c7f1f42fd0f79a/grocery.svg'},
-        {id: 4,title: 'Entertainment', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/QUX03obDRVqFpCTvgi0iU/c7a4f8f0689f6aa5167d0f5b622de1a1/entertainment.svg'},
-        {id: 5,title: 'Dining & Nightlife', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/khBTqGWdXJMkHkpfLooVQ/608eb91d75c51a79275ccf10b5694756/dining-nightlife.svg'},
-        {id: 6,title: 'Bills & Utilities', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/2x1jjGpqMHz0fAtKFKPeL3/9e536a2a4353c215ce3f4e942c3f633e/bills-utilities.png'},
-        {id: 7,title: 'Health & Beauty', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/jxEiDavyLxcTPd3dMMdro/39e20efd07c0822f54d349ef2d41d493/health-beauty.svg'},
-        {id: 8,title: 'Gas', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/wGYau9xTv5HD0nHclKIta/7a20dccfc7b96d8dc13cbbe9634cdc91/gas.svg'},
-        {id: 9,title: 'Other', img: 'https://images.ctfassets.net/gkyt4bl1j2fs/t1KsUoXfCiGRd9La9P4xQ/5d9f7b222e1e84cf76c7995244046df8/other.svg'},
+        {id: 1,title: 'Transportation', img: transportation},
+        {id: 2,title: 'Travel', img: travel},
+        {id: 3,title: 'Grocery', img: grocery},
+        {id: 4,title: 'Entertainment', img: entertainment},
+        {id: 5,title: 'Dining & Nightlife', img: dining},
+        {id: 6,title: 'Bills & Utilities', img: bills},
+        {id: 7,title: 'Health & Beauty', img: health},
+        {id: 8,title: 'Gas', img: gas},
+        {id: 9,title: 'Other', img: other},
     ]
     return (
         <div className={classes.root}>
