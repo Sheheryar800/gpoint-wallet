@@ -29,8 +29,8 @@ function Earnings() {
                                     <h1 style={{margin: '18.72px 0px'}}>1</h1>
                                 </Grid>
                                 <Grid item sm={'10'} textAlign={'left'}>
-                                    <h3 style={{marginTop: '27px'}}>Get Venmo</h3>
-                                    <p>Get the Venmo app to apply for the Venmo Credit Card</p>
+                                    <h3 style={{marginTop: '27px'}}>Get GPoint Wallet</h3>
+                                    <p>Get the GPoint Wallet app to apply for the GPoint Wallet Credit Card</p>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -47,7 +47,7 @@ function Earnings() {
                                 </Grid>
                                 <Grid item sm={'10'} textAlign={'left'}>
                                     <h3 style={{marginTop: '27px'}}>Shop and spend</h3>
-                                    <p>If approved, use the Venmo Credit Card for purchases everywhere Visa® cards are accepted.</p>
+                                    <p>If approved, use the GPoint Wallet Credit Card for purchases everywhere Visa® cards are accepted.</p>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -64,7 +64,7 @@ function Earnings() {
                                 </Grid>
                                 <Grid item sm={'10'} textAlign={'left'}>
                                     <h3 style={{marginTop: '27px'}}>Get cash rewards</h3>
-                                    <p>Automatically earn cash back based on your spending, right to your Venmo account.</p>
+                                    <p>Automatically earn cash back based on your spending, right to your GPoint Wallet account.</p>
                                 </Grid>
                             </Grid>
                         </Grid>

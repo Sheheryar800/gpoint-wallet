@@ -142,7 +142,7 @@ function Crypto() {
                         <img src={Img} alt="Crypto" className={classes.image} />
                     </Grid>
                     <Grid item xs={12} className={classes.text}>
-                        <h1>Crypto on Venmo</h1>
+                        <h1>Crypto on GPoint Wallet</h1>
                         <h1>Your journey starts here</h1>
                         <p>With GPointWallet serving as your trusted intermediary, you can instantly gain access a number of supported cryptocurrencies, including BTC, ETH, and IMC. Buy, Sell, HODL.</p>
                         <p>Currently, GPoint Wallet is the only Wallet available for download offering support for the IMC Token.</p>
