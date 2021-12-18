@@ -30,8 +30,8 @@ const useStyle = makeStyles(() => ({
 function Rewards() {
     const classes = useStyle();
     const data = [
-        {id: 1, title: 'We do the math for you', text: 'Cash back rewards are determined automatically, so just swipe, tap and watch your Venmo balance grow.', img: body1},
-        {id: 2, title: 'Use cash back to cash in on crypto', text: 'Just turn on crypto auto purchase, and choose from Bitcoin, Litecoin, Bitcoin Cash, and Ethereum. When cash back is transferred to your Venmo account at the end of every month, we’ll use it to automatically purchase crypto without any crypto transaction fee.', img: body2},
+        {id: 1, title: 'Watch your GPoint balance grow', text: 'Cash back rewards are determined automatically, so just swipe, tap and watch your GPoint Wallet balance grow.', img: body1},
+        {id: 2, title: 'Use cash back to cash in on crypto', text: 'Just turn on crypto auto purchase, and choose from Bitcoin, Litecoin, Bitcoin Cash, and Ethereum. When cash back is transferred to your GPoint Wallet account at the end of every month, we’ll use it to automatically purchase crypto without any crypto transaction fee.', img: body2},
     ]
     const data2 = [
         {id: 1, title: 'Rake in the rewards', text: 'GPoint rewards are determined automatically, so all you need to do to do… is swipe! Or simply scan your QR code!', img: body3},
