@@ -6,6 +6,7 @@ import Crypto from './Screens/Crypto';
 import DirectDeposit from './Screens/DirectDeposit';
 import GPointDebitCard from './Screens/GPointDebitCard';
 import HowItWorks from './Screens/HowItWorks';
+import LandingPage from './Screens/LandingPage';
 import PayInStore from './Screens/PayInStore';
 import Rewards from './Screens/Rewards';
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HowItWorks />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path="/works" element={<HowItWorks />} />
         <Route path="/deposit/" element={<DirectDeposit />} />
         <Route path="/crypto/" element={<Crypto />} />
         <Route path="/accept/" element={<AcceptGPoint />} />
