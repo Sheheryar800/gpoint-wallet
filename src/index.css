@@ -1,0 +1,50 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 16px;
+    color: black;
+}
+.nav-link {
+    display: block;
+    padding: 1rem;
+}
+.wallet{
+    background-image: url('/src/assets/images/wallet/downloadWallet.png');
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cryptoCard{
+    background-image: url('/src/assets/images/crypto_cash/cryptocards.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navItems{
+    display: flex;
+}
+.walletHeading{
+    font-size: 75px;
+}
+
+@media(max-width:991px){
+    .navItems{
+        display: block;
+    }
+    .navbar>.container-fluid {
+        justify-content: end;
+    }
+}
+@media(max-width:639px){
+    .vCardSecHead{
+        font-size: 1.5rem;
+    }
+    .walletHeading{
+    font-size: 65px;
+    }
+}
+@media(max-width:582px){
+    .walletHeading{
+        font-size: 40px;
+    }
+}

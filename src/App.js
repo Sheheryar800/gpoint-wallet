@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Header from './Components/Header';
 import AcceptGPoint from './Screens/AcceptGPoint';
 import BusinessProfile from './Screens/BusinessProfile';
 import Crypto from './Screens/Crypto';
@@ -13,9 +14,10 @@ import Rewards from './Screens/Rewards';
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path='/' element={<LandingPage />} />
-        <Route path="/works" element={<HowItWorks />} />
+        <Route path="/works/" element={<HowItWorks />} />
         <Route path="/deposit/" element={<DirectDeposit />} />
         <Route path="/crypto/" element={<Crypto />} />
         <Route path="/accept/" element={<AcceptGPoint />} />
